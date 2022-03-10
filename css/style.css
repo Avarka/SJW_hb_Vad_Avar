@@ -1,0 +1,32 @@
+header {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+header h1 {
+    font-family: Cambria, serif;
+    text-transform: uppercase;
+    font-size: 500%;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    color: rgb(18, 112, 132);
+    background-color: rgba(255, 255, 255, 65%);
+}
+
+header h2 {
+    font-size: 2em;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: normal;
+    color: rgb(18, 112, 132);
+    background-color: rgba(255, 255, 255, 65%);
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 300%;
+    }
+}
