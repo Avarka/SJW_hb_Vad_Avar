@@ -23,10 +23,27 @@ header h2 {
     color: rgb(18, 112, 132);
     background-color: rgba(255, 255, 255, 65%);
     padding: 10px 20px;
+    font-variant: normal;
 }
 
 @media (max-width: 768px) {
     header h1 {
         font-size: 300%;
     }
+}
+
+#parts {
+    list-style-image: url("../img/icon.png");
+}
+
+#parts li {
+    line-height: 25px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+#parts-img {
+    box-shadow: 2px 2px 5px #000;
 }
